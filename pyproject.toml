@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-pdf-example"
+version = "0.1.0"
+description = ""
+authors = ["Francisco <vieirafrancisco.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_pdf_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.6"
+django-weasyprint = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
